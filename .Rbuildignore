@@ -6,3 +6,7 @@ check_reader.R
 ^appveyor\.yml$
 ^cran-comments\.md$
 ^\.github$
+^DESCRIPTION\.bak$
+^autoci\.yml$
+^autoci_pkgdown\.yml$
+^tic\.R$
