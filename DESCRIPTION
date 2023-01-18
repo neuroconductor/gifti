@@ -5,26 +5,17 @@ Version: 0.8.2
 Date: 2021-03-31
 Author: John Muschelli
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Functions to read in the geometry format under the 
-    'Neuroimaging' 'Informatics' Technology Initiative ('NIfTI'), called 
-    'GIFTI' <https://www.nitrc.org/projects/gifti/>. 
-    These files contain surfaces of brain imaging data.
+Description: Functions to read in the geometry format under the
+        'Neuroimaging' 'Informatics' Technology Initiative ('NIfTI'),
+        called 'GIFTI' <https://www.nitrc.org/projects/gifti/>. These
+        files contain surfaces of brain imaging data.
 License: GPL-2
-Imports:
-    xml2 (>= 1.1.1),
-    base64enc,
-    R.utils,
-    tools,
-    utils
-Suggests:
-    rgl,
-    grDevices,
-    testthat,
-    knitr,
-    rmarkdown,
-    covr
+Imports: xml2 (>= 1.1.1), base64enc, R.utils, tools, utils
+Suggests: rgl, grDevices, testthat, knitr, rmarkdown, covr
 BugReports: https://github.com/muschellij2/gifti/issues
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
 VignetteBuilder: knitr
+Repository: Neuroconductor
+biocViews: 
